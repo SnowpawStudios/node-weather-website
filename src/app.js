@@ -70,7 +70,10 @@ app.get('/weather', (req, res)=>{
                 res.send({
                     location: data.location,
                     forecast: forecastData.message,
-                    address: location
+                    address: location,
+                    weatherIcon: forecastData.weatherIcon,
+                    weatherDescription: forecastData.weatherDescription,
+                    windSpeed: forecastData.windSpeed
                 })
                                
             });

@@ -63,3 +63,20 @@ button{
     color:white;
     padding:8px;
 }
+
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-info img{
+    border-radius: 50%;
+    margin-bottom: 16px;
+    width: 64px;
+    
+}
+.weather-info p{
+    padding: 4px;
+    margin: 0px;
+}

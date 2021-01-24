@@ -13,7 +13,10 @@ const forecast = (lat, long, callback)=>{
                 temp: response.body.current.temperature,
                 feelslike: response.body.current.feelslike,
                 location: response.body.location.name,
-                message: `The temperature is ${response.body.current.temperature}, but it feels like ${response.body.current.feelslike}.`
+                weatherIcon: response.body.current.weather_icons,
+                weatherDescription: response.body.current.weather_descriptions,
+                windSpeed: response.body.current.wind_speed,
+                message: `The temperature is ${response.body.current.temperature}, and it feels like ${response.body.current.feelslike}.`
             })
         }
     });
