@@ -12,17 +12,27 @@ body {
 }
 .main-content{
     flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content p{
+    padding: 0 32px;
 }
 footer{
     color: #888888;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 32px 0;
+    width:100%;
+    text-align: center;
 }
 
 header{
     margin-top: 16px;
     margin-bottom: 48px;
+    width:100%;
+    text-align: center;
 
 }
 

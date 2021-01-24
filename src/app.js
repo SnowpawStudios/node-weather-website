@@ -99,7 +99,7 @@ app.get('/help/*', (req, res)=>{
     res.render('404', {
         title: '404',
         message: 'This help page does not exist!',
-        footerMessage: 'Copywrite Snowpaw Studios'
+        footerMessage: 'Copyright Snowpaw Studios'
     });
 });
 
