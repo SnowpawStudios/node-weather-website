@@ -26,7 +26,7 @@ app.get('', (req, res)=>{
     res.render('index',{
         title: 'Weather',
         name: 'Yasha',
-        footerMessage: 'Copywrite Snowpaw Studios'
+        footerMessage: 'Copyright Snowpaw Studios'
     });
 });
 
@@ -34,7 +34,7 @@ app.get('/about', (req, res)=>{
     res.render('about', {
         title: 'About me',
         name: 'Yasha',
-        footerMessage: 'Copywrite Snowpaw Studios'
+        footerMessage: 'Copyright Snowpaw Studios'
     });
 });
 
@@ -43,7 +43,7 @@ app.get('/help', (req, res)=>{
         title: "Help page",
         message: "This is the awesome help page",
         name: "Yasha",
-        footerMessage: 'Copywrite Snowpaw Studios'
+        footerMessage: 'Copyright Snowpaw Studios'
     })
 })
 
@@ -107,7 +107,7 @@ app.get('*', (req, res)=>{
     res.render('404', {
         title: '404',
         message: 'This page does not exist on the server!',
-        footerMessage: 'Copywrite Snowpaw Studios'
+        footerMessage: 'Copyright Snowpaw Studios'
     });
 });
 
